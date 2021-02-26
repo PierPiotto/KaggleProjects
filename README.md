@@ -4,7 +4,7 @@
 
 ## Project 1: [Customer Churn Analysis and Explanation - Project Overview](https://www.kaggle.com/pier994/interpretable-customer-churn-analysis)
 * Created an algorithm that predicts which customers are churn-prone in a banking framework;
-* Preliminary EDA performed using seaborn and matplotlib for visualization, scipy for statistical methods (such as $`\chi^`2$ and paired t test) and apriori algorithm;
+* Preliminary EDA performed using seaborn and matplotlib for visualization, scipy for statistical methods (such as chi squared and paired t test) and apriori algorithm;
 * Cleaned and engineered features according to evidence gained and intuition;
 * Built a first machine learning pipeline using decision trees. The choice for this particular algorithm is due to interpretability and various imbalance handling techniques are exploited;
 * Built a second Machine Learning pipeline with XGBoost optimized using Random Search Cross Validation to reach the best model;
@@ -16,7 +16,7 @@ All these features and capabilities are developed using ad-hoc Python classes an
 Other features:
 * Used a cross validation strategy using to train 5 base learners in the same script;
 * Model trained using adaptive learning rate and autocast for performance improvement;
-* Final accuracy $`\sim 87%`$ (winning solution $`\sim 90%`$).
+* Final accuracy: 87% (winning solution is about 90% accurate).
 
 ## Project 3: [Geographical Analysis of NY House Dataset](https://www.kaggle.com/pier994/geographical-analysis-and-geopandas)
 This is an EDA project, with no Machine or Deep Learning algorithms.
