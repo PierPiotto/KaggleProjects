@@ -11,13 +11,15 @@
 * Explained the latter model using SHAP techniques to understand the output and to allow business decisions.
 
 ## Project 2: [CNN for Leaf Desease classification competition](https://www.kaggle.com/pier994/how-to-build-a-simple-cnn-for-image-recognition)
-* Built data ingestion framework using albumentations;
-* Built model architecture using Pytorch and transfer learning notion (with ResNet50 as source model);
-* Trained the model using cross validation, adaptive learning rate and autocast for performance improvement;
-* Built an ensemble model using the output model of each fold;
+This notebook is built on top of [Cassava Leaf Disease](https://www.kaggle.com/c/cassava-leaf-disease-classification) Kaggle competition. A convolutional neural network way built using PyTorch and by exploiting data augmentation, transfer learning and ensemble methods.  
+All these features and capabilities are developed using ad-hoc Python classes and eventually assembled in the training stage.
+Other features:
+* Used a cross validation strategy using to train 5 base learners in the same script;
+* Model trained using adaptive learning rate and autocast for performance improvement;
+* Final accuracy $\sim 87%$ (winning solution $\sim 90%$).
 
 ## Project 3: [Geographical Analysis of NY House Dataset](https://www.kaggle.com/pier994/geographical-analysis-and-geopandas)
-This is pretty much an EDA project, with no Machine or Deep Learning algorithms.
+This is an EDA project, with no Machine or Deep Learning algorithms.
 * Explored and cleaned the dataset;
 * Visualized data using seaborn and geopandas;
 * Performed various geographical like intersection and proximity to subways;
