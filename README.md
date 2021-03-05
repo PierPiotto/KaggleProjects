@@ -10,6 +10,8 @@ It is an end to end data science notebook, with exclusion of development. The ta
 * Built a second Machine Learning pipeline with XGBoost optimized using Random Search Cross Validation to reach the best model. The best threshold has been detected by maximizing the F1 score;
 * Explaining the latter model using SHAP, to understand the output and to gain insights to be used for business decisions.
 
+![](../images/SHAP_Summary_Churn.png)
+
 ## Project 2: [CNN for Leaf Desease classification competition](https://www.kaggle.com/pier994/how-to-build-a-simple-cnn-for-image-recognition)
 This is a notebook describing a pipeline for building a Convolutional Neural Network with PyTorch. This algorithm is built on top of [Cassava Leaf Disease](https://www.kaggle.com/c/cassava-leaf-disease-classification) Kaggle competition. Besides CNN construction, data augmentation, transfer learning and ensemble methods are exploited.  
 All these features and capabilities are developed using ad-hoc Python classes and eventually assembled in the training stage.
