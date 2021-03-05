@@ -1,4 +1,4 @@
-# Piotto Pierfrancesco - Data Science Portfolio
+# Piotto Pierfrancesco
 
 ### Recent Projects
 
